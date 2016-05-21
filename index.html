@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum$
+    <title>IncubateSEA</title>
+
+    <meta name="description" content="August 6-7. The largest youth entrepreneu$
+    <meta name="keywords"
+          content="IncubateSEA,IncubateX,Seattle,Sea,incubate,hackathon,pro$
+    <meta name="author" content="SecondGen">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Neuton|Montserrat|Oswald" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+
+<body>
+<div class="navbar-fixed" style="font-family: roboto;">
+    <nav class="z-depth-0" role="navigation">
+        <div class="nav-wrapper colored-text">
+            <div style="margin-left:35px;">
+                <a href="#page-top" class="brand-logo"><img class="logo" data-cs="logo-small">
+                </a>
+            </div>
+            <ul class="right hide-on-med-and-down menu" style="margin-right:20px;">
+                <li><a class="nav-text" href="#about" data-cs="nav-about"></a>
+                </li>
+                <li><a class="nav-text" href="#faq" data-cs="nav-faq"></a>
+                </li>
+                <li><a class="nav-text" href="#schedule" data-cs="nav-schedule"></a>
+                </li>
+                <li><a class="nav-text" href="#sponsors" data-cs="nav-sponsors"></a>
+                </li>
+                <li><a class="nav-text" href="#topPad" data-cs="nav-contact"></a>
+                </li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a class="" href="#about" data-cs="nav-about"></a>
+                </li>
+                <li><a class="" href="#faq" data-cs="nav-faq"></a>
+                </li>
+                <li><a class="" href="#schedule" data-cs="nav-schedule"></a>
+                </li>
+                <li><a class="" href="#sponsors" data-cs="nav-sponsors"></a>
+                </li>
+                <li><a class="" href="#topPad" data-cs="nav-contact"></a>
+                </li>
+            </ul>
+            <div class="menu-btn" style="padding-left: 30px;">
+                <a href="#" data-activates="nav-mobile"
+                   class="button-collapse waves-effect waves-light white-text">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div id="page-top" class="masthead valign-wrapper parallax-container scrollspy">
+    <div class="valign container">
+        <div class="row">
+            <div class="col s10 push-s1">
+                <img class="responsive-img" data-cs="logo-large">
+                <h4 class="flow-text center tagline"><span data-cs="date"></span> @ <span data-cs="venue"></span></h4>
+            </div>
+        </div>
+        <div class="row">
+            <a id="sponsor" href="#be_sponsor"
+               class="btn-large waves-effect col m3 offset-m2 s10 offset-s1 header-button animated bounceInLeft"
+               data-cs="btn_sponsor"></a>
+            <a id="register"
+               class="btn-large waves-effect col m3 offset-m2 s10 offset-s1 header-button animated bounceInRight"
+               target="_blank"
+               data-cs="btn_register"></a>
+        </div>
+    </div>
+    <div><img data-cs="bg-top">
+    </div>
+</div>
+
+<section id="about" class="diagonal cardpage section scrollspy" data-offset="128">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l4 addPad">
+                <div class="center">
+                    <i class="colored-text text-lighten-2 fa fa-5x" aria-hidden="true" data-cs="about-first-icon"></i>
+                </div>
+                <h4 class="heading center colored-text text-lighten-1" data-cs="about-first-head"></h4>
+                <p class="flow-text center about-body" data-cs="about-first-body"></p>
+            </div>
+
+            <div class="col s12 m12 l4 addPad">
+                <div class="center">
+                    <i class="colored-text text-lighten-2 fa fa-5x" aria-hidden="true"
+                       data-cs="about-second-icon"></i>
+                </div>
+                <h4 class="heading center colored-text text-lighten-1" data-cs="about-second-head"></h4>
+                <p class="flow-text center about-body" data-cs="about-second-body"></p>
+            </div>
+
+            <div class="col s12 m12 l4 addPad">
+                <div class="center">
+                    <i class="colored-text text-lighten-2 fa fa-5x" aria-hidden="true" data-cs="about-third-icon"></i>
+                </div>
+                <h4 class="heading center colored-text text-lighten-1" data-cs="about-third-head"></h4>
+                <p class="flow-text center about-body" data-cs="about-third-body"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="countup" class="parallax-container second-parallax">
+    <div class="container">
+        <div class="row">
+            <div class="col s10 offset-s1 m10 offset-m1 l4 numbers ">
+                <h1 id="counter1" class="counter"></h1>
+                <h5 class="game flow-text center-align" data-cs="countup-attendees-unit"></h5>
+            </div>
+            <div class="col s10 offset-s1 m10 offset-m1 l4 numbers ">
+                <h1 id="counter2" class="counter"></h1>
+                <h5 class="game flow-text center-align" data-cs="countup-hours-unit"></h5>
+            </div>
+            <div class="col s10 offset-s1 m10 offset-m1 l4 numbers ">
+                <h1 id="counter3" class="counter"></h1>
+                <h5 class="game flow-text center-align" data-cs="countup-opportunity-unit"></h5>
+            </div>
+        </div>
+    </div>
+    <div><img data-cs="bg-middle">
+    </div>
+</section>
+
+<section id="faq" class="diagonal cardpage scrollspy" style="font-family: roboto">
+    <div class="container">
+        <h1 class="colored-text text-lighten-1 section-heading" data-cs="section-faq"></h1>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs colored-text">
+                    <li class="tab col s3"><a href="#application-tab"><i class="fa fa-user-plus"></i> <span
+                            class="hide-on-small-only" data-cs="faq-application-title"></span></a></li>
+                    <li class="tab col s3"><a class="active" href="#logistics-tab"><i class="fa fa-clock-o"></i> <span
+                            class="hide-on-small-only" data-cs="faq-logistics-title"></span></a></li>
+                    <li class="tab col s3"><a href="#hacking-tab"><i class="fa fa-terminal"></i> <span
+                            class="hide-on-small-only" data-cs="faq-hacking-title"></span></a></li>
+                    <li class="tab col s3"><a href="#other-tab"><i class="fa fa-asterisk"></i> <span
+                            class="hide-on-small-only" data-cs="faq-other-title"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="application-tab" class="col s3 animated fadeIn" data-cs="faq-application-contents">
+                <div class="template row">
+                    <div class="template col s12 l4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="logistics-tab" class="col s3 animated fadeIn" data-cs="faq-logistics-contents">
+                <div class="template row">
+                    <div class="template col s12 l4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="hacking-tab" class="col s3 animated fadeIn" data-cs="faq-hacking-contents">
+                <div class="template row">
+                    <div class="template col s12 l4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="other-tab" class="col s3 animated fadeIn" data-cs="faq-other-contents">
+                <div class="template row">
+                    <div class="template col s12 l4">
+                        <h5 class="question"></h5>
+                        <p class="answer flow-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="schedule" class="scrollspy colored lighten-1">
+    <div class="valign container">
+        <h1 class="white-text section-heading" data-cs="section-schedule"></h1>
+        <div class="row white-text">
+            <div class="timetable col s10 offset-s1 m5" data-cs="schedule-day1-table">
+                <div class="date row">
+                    <span class="flow-text white-text" data-cs="schedule-day1-date"></span>
+                </div>
+                <div class="template row">
+                    <div class="time col s2"></div>
+                    <div class="event col s6"></div>
+                    <div class="place col s4"></div>
+                </div>
+            </div>
+            <div class="timetable col s10 offset-s1 m5 offset-m1" data-cs="schedule-day2-table">
+                <div class="date row">
+                    <span class="flow-text white-text" data-cs="schedule-day2-date"></span>
+                </div>
+                <div class="template row">
+                    <div class="time col s2"></div>
+                    <div class="event col s6"></div>
+                    <div class="place col s4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sponsors" class="diagonal cardpage scrollspy">
+    <div class="container">
+        <h1 class="colored-text text-lighten-1 section-heading" data-cs="section-our_sponsors"></h1>
+        <div data-cs="sponsors-name_sponsor">
+            <div class="template row">
+                <div class="template col m6 s12">
+                    <a class="link" target="_blank"><img class="image"></a>
+                </div>
+            </div>
+        </div>
+        <div data-cs="sponsors-gold">
+            <div class="template row">
+                <div class="template col m4 s6">
+                    <a class="link" target="_blank"><img class="image"></a>
+                </div>
+            </div>
+        </div>
+        <div data-cs="sponsors-silver">
+            <div class="template row">
+                <div class="template col m3 s4">
+                    <a class="link" target="_blank"><img class="image"></a>
+                </div>
+            </div>
+        </div>
+        <div data-cs="sponsors-bronze">
+            <div class="template row">
+                <div class="template col m2 s3">
+                    <a class="link" target="_blank"><img class="image"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="be_sponsor" class="parallax-container second-parallax scrollspy">
+    <div class="container">
+        <h1 class="white-text section-heading" data-cs="section-be_sponsor"></h1>
+        <br><br>
+        <div class="row">
+            <p class="flow-text white-text" data-cs="sponsor_contact"></p>
+        </div>
+        <div><img data-cs="bg-bottom">
+        </div>
+    </div>
+</section>
+
+<footer id="topPad" class="page-footer black scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text" data-cs="contact_us"></h5>
+                <h5 style="margin-top:-5px;">
+                    <a class="grey-text text-lighten-3" data-cs="contact-email"><i class="fa fa-envelope-o"></i></a>
+                    <a class="grey-text text-lighten-3" data-cs="contact-facebook" target="_blank"> <i
+                            class="fa fa-facebook"></i></a>
+                    <a class="grey-text text-lighten-3" data-cs="contact-twitter" target="_blank"> <i
+                            class="fa fa-twitter"></i></a>
+                </h5>
+            </div>
+            <div class="col l6 s12 footer-incubatex">
+                <a href="http://incubatex.org" target="_blank">
+                    <img class="incubatex-logo" src="img/IncubateX.png">
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+        <div class="container">
+            © 2016 SecondGen
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/scrollspy.min.js"></script>
+<script src="js/countUp.min.js"></script>
+<script src="js/init.min.js"></script>
+<script src="js/customize.min.js"></script>
+<script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
+        integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+$lights: (
+  "base": $primary-color,
+  "lighten-5": lighten($primary-color, 35%),
+  "lighten-4": lighten($primary-color, 28%),
+  "lighten-3": lighten($primary-color, 21%),
+  "lighten-2": lighten($primary-color, 14%),
+  "lighten-1": lighten($primary-color, 7%),
+  "darken-1": darken($primary-color, 10%),
+  "darken-2": darken($primary-color, 20%),
+  "darken-3": darken($primary-color, 30%),
+  "darken-4": darken($primary-color, 40%)
+);
+
+@each $color_type, $color_value in $lights {
+  @if $color_type == "base" {
+    .colored {
+      background-color: $color_value !important;
+    }
+    .colored-text {
+      color: $color_value !important;
+    }
+  } @else {
+    .colored.#{$color_type} {
+      background-color: $color_value !important;
+    }
+    .colored-text.text-#{$color_type} {
+      color: $color_value !important;
+    }
+  }
+}
+
+// Variables;
+@import "components/variables";
+
+// Reset
+@import "components/normalize";
+
+// components
+@import "components/global";
+@import "components/icons-material-design";
+@import "components/grid";
+@import "components/navbar";
+@import "components/roboto";
+@import "components/typography";
+@import "components/cards";
+@import "components/toast";
+@import "components/tabs";
+@import "components/tooltip";
+@import "components/buttons";
+@import "components/dropdown";
+@import "components/waves";
+@import "components/modal";
+@import "components/collapsible";
+@import "components/chips";
+@import "components/materialbox";
+@import "components/forms/forms";
+@import "components/table_of_contents";
+@import "components/sideNav";
+@import "components/preloader";
+@import "components/slider";
+@import "components/carousel";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
+
+a {
+  color: map-get($lights, "lighten-2");
+}
