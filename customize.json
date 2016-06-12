@@ -1,5 +1,5 @@
 {
-  "title": "IncubateSEA",
+  "title": "IncubateIND",
   "color": {
     "$type": "theme",
     "$value": [
@@ -40,13 +40,13 @@
     }
   },
   "date": "August 6-7",
-  "venue": "Make School SF",
+  "venue": "TBD",
   "btn_sponsor": "Sponsor Us",
   "btn_register": [
     "Register",
     {
       "$type": "link",
-      "$value": "https://secondgen.typeform.com/to/u31PN0"
+      "$value": null
     }
   ],
   "no_registration_yet": "Registration is not yet open.<br>Please check back in a few weeks!",
@@ -63,7 +63,7 @@
         "$value": "fa-book"
       },
       "head": "Learn",
-      "body": "IncubateSEA will be an educational experience for participants of all levels. We will have various workshops from which participants can learn entirely new skills or platforms, and many mentors who will be able to share their knowledge acquired with years of experience."
+      "body": "IncubateX will be an educational experience for participants of all levels. We will have various workshops from which participants can learn entirely new skills or platforms, and many mentors who will be able to share their knowledge acquired with years of experience."
     },
     "second": {
       "icon": {
@@ -71,7 +71,7 @@
         "$value": "fa-lightbulb-o"
       },
       "head": "Build",
-      "body": "IncubateSEA will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
+      "body": "IncubateIND will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
     },
     "third": {
       "icon": {
@@ -79,12 +79,12 @@
         "$value": "fa-users"
       },
       "head": "Connect",
-      "body": "Because IncubateSEA is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
+      "body": "Because IncubateIND is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
     }
   },
   "countup": {
     "attendees": {
-      "number": 250,
+      "number": 200,
       "unit": "ATTENDEES"
     },
     "hours": {
@@ -104,7 +104,7 @@
         "$value": [
           {
             "question": "Who can apply?",
-            "answer": "Any high school or college student can apply to participate in IncubateSEA, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
+            "answer": "Any high school or college student can apply to participate in IncubateIND, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
           },
           {
             "question": "How do I apply?",
@@ -127,11 +127,11 @@
         "$value": [
           {
             "question": "When/Where?",
-            "answer": "IncubateSEA will take place on August 6-7 at the Make School SF."
+            "answer": "IncubateIND will take place on August 6-7 at TBD."
           },
           {
             "question": "Is there transportation or travel reimbursement?",
-            "answer": "TBD."
+            "answer": "No"
           },
           {
             "question": "What should I bring?",
@@ -199,37 +199,37 @@
           {
             "time": "9AM",
             "event": "Check In",
-            "place": "Lobby"
+            "place": ""
           },
           {
             "time": "10AM",
             "event": "Welcome + Keynotes",
-            "place": "Cafeteria"
+            "place": ""
           },
           {
             "time": "11AM",
             "event": "Demos",
-            "place": "Cafeteria"
+            "place": ""
           },
           {
             "time": "12PM",
             "event": "Hacking Begins",
-            "place": "Band Hall"
+            "place": ""
           },
           {
             "time": "1PM",
             "event": "Lunch",
-            "place": "Lobby"
+            "place": ""
           },
           {
             "time": "2PM",
             "event": "Workshops",
-            "place": "Band Hall"
+            "place": ""
           },
           {
             "time": "7PM",
             "event": "Dinner",
-            "place": "Lobby"
+            "place": ""
           }
         ]
       }
@@ -242,42 +242,42 @@
           {
             "time": "12AM",
             "event": "Midnight Snack",
-            "place": "Band Hall"
+            "place": ""
           },
           {
             "time": "3AM",
             "event": "HypeFest",
-            "place": "Band Hall"
+            "place": ""
           },
           {
             "time": "5AM",
             "event": "Surprise",
-            "place": "Lobby"
+            "place": ""
           },
           {
             "time": "7AM",
             "event": "Breakfast",
-            "place": "Lobby"
+            "place": ""
           },
           {
             "time": "12PM",
             "event": "Lunch & Hacking Ends",
-            "place": "Lobby"
+            "place": ""
           },
           {
             "time": "1PM",
             "event": "Hack Demo Fair",
-            "place": "Lobby"
+            "place": ""
           },
           {
             "time": "2PM",
             "event": "Closing Ceremony",
-            "place": "Auditorium"
+            "place": ""
           },
           {
             "time": "3PM",
             "event": "Hackathon Ends",
-            "place": "Auditorium"
+            "place": ""
           }
         ]
       }
@@ -300,16 +300,6 @@
             "$type": "image",
             "$value": "sponsors/2ndGen.png"
           }
-        },
-        {
-          "link": {
-            "$type": "link",
-            "$value": "https://www.thalmic.com"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/thalmiclabs.png"
-          }
         }
       ]
     },
@@ -322,12 +312,12 @@
       "$value": []
     }
   },
-  "sponsor_contact": "If you are interested in sponsoring IncubateSEA, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:Seattle@incubatex.org'>Seattle@incubatex.org</a>.",
+  "sponsor_contact": "If you are interested in sponsoring IncubateIND, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:Seattle@incubatex.org'>Seattle@incubatex.org</a>.",
   "contact_us": "Contact Us",
   "contact": {
     "email": {
       "$type": "link",
-      "$value": "mailto:Seattle@incubatex.org"
+      "$value": "mailto:india@incubatex.org"
     },
     "facebook": {
       "$type": "link",
