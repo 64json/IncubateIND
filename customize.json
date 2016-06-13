@@ -317,7 +317,7 @@
   "contact": {
     "email": {
       "$type": "link",
-      "$value": "mailto:india@incubatex.org"
+      "$value": "mailto:ind@incubatex.org"
     },
     "facebook": {
       "$type": "link",
