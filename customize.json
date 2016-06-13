@@ -1,5 +1,5 @@
 {
-  "title": "IncubateIND",
+  "title": "IncubateX",
   "color": {
     "$type": "theme",
     "$value": [
@@ -40,13 +40,13 @@
     }
   },
   "date": "August 6-7",
-  "venue": "TBD",
+  "venue": "MTV Flyp Cafe Cannaught Place",
   "btn_sponsor": "Sponsor Us",
   "btn_register": [
     "Register",
     {
       "$type": "link",
-      "$value": null
+      "$value": "https://secondgen.typeform.com/to/NYrrdM"
     }
   ],
   "no_registration_yet": "Registration is not yet open.<br>Please check back in a few weeks!",
@@ -71,7 +71,7 @@
         "$value": "fa-lightbulb-o"
       },
       "head": "Build",
-      "body": "IncubateIND will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
+      "body": "IncubateX will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
     },
     "third": {
       "icon": {
@@ -79,7 +79,7 @@
         "$value": "fa-users"
       },
       "head": "Connect",
-      "body": "Because IncubateIND is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
+      "body": "Because IncubateX is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
     }
   },
   "countup": {
@@ -104,7 +104,7 @@
         "$value": [
           {
             "question": "Who can apply?",
-            "answer": "Any high school or college student can apply to participate in IncubateIND, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
+            "answer": "Any high school or college student can apply to participate in IncubateX, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
           },
           {
             "question": "How do I apply?",
@@ -127,7 +127,7 @@
         "$value": [
           {
             "question": "When/Where?",
-            "answer": "IncubateIND will take place on August 6-7 at TBD."
+            "answer": "IncubateX will take place on August 6-7 at TBD."
           },
           {
             "question": "Is there transportation or travel reimbursement?",
@@ -312,7 +312,7 @@
       "$value": []
     }
   },
-  "sponsor_contact": "If you are interested in sponsoring IncubateIND, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:Seattle@incubatex.org'>Seattle@incubatex.org</a>.",
+  "sponsor_contact": "If you are interested in sponsoring IncubateX, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:Seattle@incubatex.org'>Seattle@incubatex.org</a>.",
   "contact_us": "Contact Us",
   "contact": {
     "email": {
