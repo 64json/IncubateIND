@@ -3,9 +3,9 @@
   "color": {
     "$type": "theme",
     "$value": [
-      193,
-      216,
-      47
+      245,
+      128,
+      97
     ]
   },
   "logo": {
@@ -317,7 +317,7 @@
   "contact": {
     "email": {
       "$type": "link",
-      "$value": "mailto:india@incubatex.org"
+      "$value": "mailto:ind@incubatex.org"
     },
     "facebook": {
       "$type": "link",
