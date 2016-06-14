@@ -308,7 +308,7 @@
                     },
                     "image": {
                         "$type": "image",
-                        "$value": "sponsors/farhom.jpeg"
+                        "$value": "sponsors/farhom.jpg"
                     }
                 }
                     ]
