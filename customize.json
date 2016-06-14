@@ -315,11 +315,49 @@
         },
         "silver": {
             "$type": "array_cols",
-            "$value": []
+            "$value": [{
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://www.secondgen.org"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/2ndGen.png"
+                    }
+        },
+                {
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://www.farhom.com/"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/farhom.jpg"
+                    }
+                }]
         },
         "bronze": {
             "$type": "array_cols",
-            "$value": []
+            "$value": [{
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://www.secondgen.org"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/2ndGen.png"
+                    }
+        },
+                {
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://www.farhom.com/"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/farhom.jpg"
+                    }
+                }]
         }
     },
     "sponsor_contact": "If you are interested in sponsoring IncubateX, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:ind@incubatex.org'>IND@incubatex.org</a>.",
