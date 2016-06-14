@@ -1,331 +1,341 @@
 {
-  "title": "IncubateX",
-  "color": {
-    "$type": "theme",
-    "$value": [
+    "title": "IncubateIND",
+    "color": {
+        "$type": "theme",
+        "$value": [
       245,
       128,
       97
     ]
-  },
-  "logo": {
-    "small": {
-      "$type": "image",
-      "$value": "IncubateLogoWS.png"
     },
-    "large": {
-      "$type": "image",
-      "$value": "IncubateLogoW.png"
-    }
-  },
-  "nav": {
-    "about": "About",
-    "faq": "FAQ",
-    "schedule": "Schedule",
-    "sponsors": "Sponsors",
-    "contact": "Contact"
-  },
-  "bg": {
-    "top": {
-      "$type": "parallax",
-      "$value": "5.jpg"
+    "logo": {
+        "small": {
+            "$type": "image",
+            "$value": "IncubateLogoWS.png"
+        },
+        "large": {
+            "$type": "image",
+            "$value": "IncubateLogoW.png"
+        }
     },
-    "middle": {
-      "$type": "parallax",
-      "$value": "10.jpg"
+    "nav": {
+        "about": "About",
+        "faq": "FAQ",
+        "schedule": "Schedule",
+        "sponsors": "Sponsors",
+        "contact": "Contact"
     },
-    "bottom": {
-      "$type": "parallax",
-      "$value": "15.jpg"
-    }
-  },
-  "date": "August 6-7",
-  "venue": "MTV Flyp Cafe Cannaught Place",
-  "btn_sponsor": "Sponsor Us",
-  "btn_register": [
+    "bg": {
+        "top": {
+            "$type": "parallax",
+            "$value": "5.jpg"
+        },
+        "middle": {
+            "$type": "parallax",
+            "$value": "10.jpg"
+        },
+        "bottom": {
+            "$type": "parallax",
+            "$value": "15.jpg"
+        }
+    },
+    "date": "August 6-7",
+    "venue": "MTV Flyp Cafe Cannaught Place",
+    "btn_sponsor": "Sponsor Us",
+    "btn_register": [
     "Register",
-    {
-      "$type": "link",
-      "$value": "https://secondgen.typeform.com/to/NYrrdM"
+        {
+            "$type": "link",
+            "$value": "https://secondgen.typeform.com/to/NYrrdM"
     }
   ],
-  "no_registration_yet": "Registration is not yet open.<br>Please check back in a few weeks!",
-  "section": {
-    "faq": "Frequently Asked Questions",
-    "schedule": "Schedule",
-    "our_sponsors": "Sponsors",
-    "be_sponsor": "Sponsor Us"
-  },
-  "about": {
-    "first": {
-      "icon": {
-        "$type": "class",
-        "$value": "fa-book"
-      },
-      "head": "Learn",
-      "body": "IncubateX will be an educational experience for participants of all levels. We will have various workshops from which participants can learn entirely new skills or platforms, and many mentors who will be able to share their knowledge acquired with years of experience."
+    "no_registration_yet": "Registration is not yet open.<br>Please check back in a few weeks!",
+    "section": {
+        "faq": "Frequently Asked Questions",
+        "schedule": "Schedule",
+        "our_sponsors": "Sponsors",
+        "be_sponsor": "Sponsor Us"
     },
-    "second": {
-      "icon": {
-        "$type": "class",
-        "$value": "fa-lightbulb-o"
-      },
-      "head": "Build",
-      "body": "IncubateX will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
+    "about": {
+        "first": {
+            "icon": {
+                "$type": "class",
+                "$value": "fa-book"
+            },
+            "head": "Learn",
+            "body": "IncubateIND will be an educational experience for participants of all levels. We will have various workshops from which participants can learn entirely new skills or platforms, and many mentors who will be able to share their knowledge acquired with years of experience."
+        },
+        "second": {
+            "icon": {
+                "$type": "class",
+                "$value": "fa-lightbulb-o"
+            },
+            "head": "Build",
+            "body": "IncubateIND will foster growth, creating an environment in which participants can create revolutionary products with technology. With 30 hours to hack, teams will have the ability to complete polished products with the potential to disrupt industries."
+        },
+        "third": {
+            "icon": {
+                "$type": "class",
+                "$value": "fa-users"
+            },
+            "head": "Connect",
+            "body": "Because IncubateIND is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
+        }
     },
-    "third": {
-      "icon": {
-        "$type": "class",
-        "$value": "fa-users"
-      },
-      "head": "Connect",
-      "body": "Because IncubateX is an entrepreneurship hackathon, participants will have diverse skillsets. Designers, developers, and budding entrepreneurs will come together to network and create amazing products."
-    }
-  },
-  "countup": {
-    "attendees": {
-      "number": 200,
-      "unit": "ATTENDEES"
+    "countup": {
+        "attendees": {
+            "number": 200,
+            "unit": "ATTENDEES"
+        },
+        "hours": {
+            "number": 30,
+            "unit": "HOURS"
+        },
+        "opportunity": {
+            "number": 1,
+            "unit": "LIFETIME OPPORTUNITY"
+        }
     },
-    "hours": {
-      "number": 30,
-      "unit": "HOURS"
-    },
-    "opportunity": {
-      "number": 1,
-      "unit": "LIFETIME OPPORTUNITY"
-    }
-  },
-  "faq": {
-    "application": {
-      "title": "Application",
-      "contents": {
-        "$type": "array_cols",
-        "$value": [
-          {
-            "question": "Who can apply?",
-            "answer": "Any high school or college student can apply to participate in IncubateX, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
+    "faq": {
+        "application": {
+            "title": "Application",
+            "contents": {
+                "$type": "array_cols",
+                "$value": [
+                    {
+                        "question": "Who can apply?",
+                        "answer": "Any high school or college student can apply to participate in IncubateIND, regardless of experience with programming. Because it is an entrepreneurship event, we are looking for a diverse pool of participants in terms of skillsets."
           },
-          {
-            "question": "How do I apply?",
-            "answer": "Just fill out the registration form! More info will be sent out later."
+                    {
+                        "question": "How do I apply?",
+                        "answer": "Just fill out the registration form! More info will be sent out later."
           },
-          {
-            "question": "What is the application deadline?",
-            "answer": "This will be decided later. The sooner you apply, the better!"
+                    {
+                        "question": "What is the application deadline?",
+                        "answer": "This will be decided later. The sooner you apply, the better!"
           }
         ],
-        "$options": {
-          "colsInRow": 3
-        }
-      }
-    },
-    "logistics": {
-      "title": "Logistics",
-      "contents": {
-        "$type": "array_cols",
-        "$value": [
-          {
-            "question": "When/Where?",
-            "answer": "IncubateX will take place on August 6-7 at TBD."
+                "$options": {
+                    "colsInRow": 3
+                }
+            }
+        },
+        "logistics": {
+            "title": "Logistics",
+            "contents": {
+                "$type": "array_cols",
+                "$value": [
+                    {
+                        "question": "When/Where?",
+                        "answer": "IncubateIND will take place on August 6-7 at TBD."
           },
-          {
-            "question": "Is there transportation or travel reimbursement?",
-            "answer": "No"
+                    {
+                        "question": "Is there transportation or travel reimbursement?",
+                        "answer": "No"
           },
-          {
-            "question": "What should I bring?",
-            "answer": "Bring your laptop, toiletries, a sleeping bag, and any other technology that you want to hack with. You <strong>don't</strong> need a predetermined team or a product idea."
+                    {
+                        "question": "What should I bring?",
+                        "answer": "Bring your laptop, toiletries, a sleeping bag, and any other technology that you want to hack with. You <strong>don't</strong> need a predetermined team or a product idea."
           }
         ],
-        "$options": {
-          "colsInRow": 3
-        }
-      }
-    },
-    "hacking": {
-      "title": "Hacking",
-      "contents": {
-        "$type": "array_cols",
-        "$value": [
-          {
-            "question": "How much time will we have to hack?",
-            "answer": "Teams will have 30 hours to build their products."
+                "$options": {
+                    "colsInRow": 3
+                }
+            }
+        },
+        "hacking": {
+            "title": "Hacking",
+            "contents": {
+                "$type": "array_cols",
+                "$value": [
+                    {
+                        "question": "How much time will we have to hack?",
+                        "answer": "Teams will have 30 hours to build their products."
           },
-          {
-            "question": "Will there be hardware or API keys provided?",
-            "answer": "Yes. We will release a list of hardware and API's later."
+                    {
+                        "question": "Will there be hardware or API keys provided?",
+                        "answer": "Yes. We will release a list of hardware and API's later."
           },
-          {
-            "question": "Do I need to be able to code?",
-            "answer": "No! Participants will be able to act as product managers or designers for their teams, or play other roles. If you don't know how to code but want to learn, you can attend one of our various workshops."
+                    {
+                        "question": "Do I need to be able to code?",
+                        "answer": "No! Participants will be able to act as product managers or designers for their teams, or play other roles. If you don't know how to code but want to learn, you can attend one of our various workshops."
           }
         ],
-        "$options": {
-          "colsInRow": 3
-        }
-      }
-    },
-    "other": {
-      "title": "Other",
-      "contents": {
-        "$type": "array_cols",
-        "$value": [
-          {
-            "question": "How much does the event cost?",
-            "answer": "It's free! We will also provide meals, snacks, and refreshments throughout the event."
+                "$options": {
+                    "colsInRow": 3
+                }
+            }
+        },
+        "other": {
+            "title": "Other",
+            "contents": {
+                "$type": "array_cols",
+                "$value": [
+                    {
+                        "question": "How much does the event cost?",
+                        "answer": "It's free! We will also provide meals, snacks, and refreshments throughout the event."
           },
-          {
-            "question": "Is there a Code of Conduct?",
-            "answer": "Yes, <a href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>here</a>. <br>tl;dr respect other participants and don't be a jerk."
+                    {
+                        "question": "Is there a Code of Conduct?",
+                        "answer": "Yes, <a href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf' target='_blank'>here</a>. <br>tl;dr respect other participants and don't be a jerk."
           },
-          {
-            "question": "Will there be prizes?",
-            "answer": "Yes. We will have both physical prizes and opportunities with sponsoring companies. A full list of prizes will be released later."
+                    {
+                        "question": "Will there be prizes?",
+                        "answer": "Yes. We will have both physical prizes and opportunities with sponsoring companies. A full list of prizes will be released later."
           }
         ],
-        "$options": {
-          "colsInRow": 3
+                "$options": {
+                    "colsInRow": 3
+                }
+            }
         }
-      }
-    }
-  },
-  "schedule": {
-    "day1": {
-      "date": "August 6th, 2016",
-      "table": {
-        "$type": "array_rows",
-        "$value": [
-          {
-            "time": "9AM",
-            "event": "Check In",
-            "place": ""
+    },
+    "schedule": {
+        "day1": {
+            "date": "August 6th, 2016",
+            "table": {
+                "$type": "array_rows",
+                "$value": [
+                    {
+                        "time": "9AM",
+                        "event": "Check In",
+                        "place": ""
           },
-          {
-            "time": "10AM",
-            "event": "Welcome + Keynotes",
-            "place": ""
+                    {
+                        "time": "10AM",
+                        "event": "Welcome + Keynotes",
+                        "place": ""
           },
-          {
-            "time": "11AM",
-            "event": "Demos",
-            "place": ""
+                    {
+                        "time": "11AM",
+                        "event": "Demos",
+                        "place": ""
           },
-          {
-            "time": "12PM",
-            "event": "Hacking Begins",
-            "place": ""
+                    {
+                        "time": "12PM",
+                        "event": "Hacking Begins",
+                        "place": ""
           },
-          {
-            "time": "1PM",
-            "event": "Lunch",
-            "place": ""
+                    {
+                        "time": "1PM",
+                        "event": "Lunch",
+                        "place": ""
           },
-          {
-            "time": "2PM",
-            "event": "Workshops",
-            "place": ""
+                    {
+                        "time": "2PM",
+                        "event": "Workshops",
+                        "place": ""
           },
-          {
-            "time": "7PM",
-            "event": "Dinner",
-            "place": ""
+                    {
+                        "time": "7PM",
+                        "event": "Dinner",
+                        "place": ""
           }
         ]
-      }
-    },
-    "day2": {
-      "date": "August 7th, 2016",
-      "table": {
-        "$type": "array_rows",
-        "$value": [
-          {
-            "time": "12AM",
-            "event": "Midnight Snack",
-            "place": ""
+            }
+        },
+        "day2": {
+            "date": "August 7th, 2016",
+            "table": {
+                "$type": "array_rows",
+                "$value": [
+                    {
+                        "time": "12AM",
+                        "event": "Midnight Snack",
+                        "place": ""
           },
-          {
-            "time": "3AM",
-            "event": "HypeFest",
-            "place": ""
+                    {
+                        "time": "3AM",
+                        "event": "HypeFest",
+                        "place": ""
           },
-          {
-            "time": "5AM",
-            "event": "Surprise",
-            "place": ""
+                    {
+                        "time": "5AM",
+                        "event": "Surprise",
+                        "place": ""
           },
-          {
-            "time": "7AM",
-            "event": "Breakfast",
-            "place": ""
+                    {
+                        "time": "7AM",
+                        "event": "Breakfast",
+                        "place": ""
           },
-          {
-            "time": "12PM",
-            "event": "Lunch & Hacking Ends",
-            "place": ""
+                    {
+                        "time": "12PM",
+                        "event": "Lunch & Hacking Ends",
+                        "place": ""
           },
-          {
-            "time": "1PM",
-            "event": "Hack Demo Fair",
-            "place": ""
+                    {
+                        "time": "1PM",
+                        "event": "Hack Demo Fair",
+                        "place": ""
           },
-          {
-            "time": "2PM",
-            "event": "Closing Ceremony",
-            "place": ""
+                    {
+                        "time": "2PM",
+                        "event": "Closing Ceremony",
+                        "place": ""
           },
-          {
-            "time": "3PM",
-            "event": "Hackathon Ends",
-            "place": ""
+                    {
+                        "time": "3PM",
+                        "event": "Hackathon Ends",
+                        "place": ""
           }
         ]
-      }
-    }
-  },
-  "sponsors": {
-    "name_sponsor": {
-      "$type": "array_cols",
-      "$value": []
+            }
+        }
     },
-    "gold": {
-      "$type": "array_cols",
-      "$value": [
-        {
-          "link": {
+    "sponsors": {
+        "name_sponsor": {
+            "$type": "array_cols",
+            "$value": []
+        },
+        "gold": {
+            "$type": "array_cols",
+            "$value": [
+                {
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://www.secondgen.org"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/2ndGen.png"
+                    }
+        },
+                {
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://www.farhom.com/"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/farhom.jpeg"
+                    }
+                }
+                    ]
+        },
+        "silver": {
+            "$type": "array_cols",
+            "$value": []
+        },
+        "bronze": {
+            "$type": "array_cols",
+            "$value": []
+        }
+    },
+    "sponsor_contact": "If you are interested in sponsoring IncubateX, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:ind@incubatex.org'>IND@incubatex.org</a>.",
+    "contact_us": "Contact Us",
+    "contact": {
+        "email": {
             "$type": "link",
-            "$value": "http://www.secondgen.org"
-          },
-          "image": {
-            "$type": "image",
-            "$value": "sponsors/2ndGen.png"
-          }
+            "$value": "mailto:ind@incubatex.org"
+        },
+        "facebook": {
+            "$type": "link",
+            "$value": "https://www.facebook.com/IncubateX/"
+        },
+        "twitter": {
+            "$type": "link",
+            "$value": "https://www.twitter.com/Incubate_X/"
         }
-      ]
-    },
-    "silver": {
-      "$type": "array_cols",
-      "$value": []
-    },
-    "bronze": {
-      "$type": "array_cols",
-      "$value": []
     }
-  },
-  "sponsor_contact": "If you are interested in sponsoring IncubateX, you can view our <a href='https://drive.google.com/file/d/0B1i3yw36qU8XSV92NGFlWVdERnM/view?usp=sharing' target='_blank'>sponsor packet</a>. For more information, contact us at <a href='mailto:ind@incubatex.org'>IND@incubatex.org</a>.",
-  "contact_us": "Contact Us",
-  "contact": {
-    "email": {
-      "$type": "link",
-      "$value": "mailto:ind@incubatex.org"
-    },
-    "facebook": {
-      "$type": "link",
-      "$value": "https://www.facebook.com/IncubateX/"
-    },
-    "twitter": {
-      "$type": "link",
-      "$value": "https://www.twitter.com/Incubate_X/"
-    }
-  }
 }
