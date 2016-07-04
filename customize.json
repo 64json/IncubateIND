@@ -300,7 +300,12 @@
                         "$type": "image",
                         "$value": "sponsors/2ndGen.png"
                     }
+        }
+                    ]
         },
+        "silver": {
+            "$type": "array_cols",
+            "$value": [
                 {
                     "link": {
                         "$type": "link",
@@ -321,11 +326,7 @@
                         "$value": "sponsors/disrupt.png"
                     }
                 }
-                    ]
-        },
-        "silver": {
-            "$type": "array_cols",
-            "$value": []
+            ]
         },
         "bronze": {
             "$type": "array_cols",
