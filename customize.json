@@ -40,7 +40,7 @@
         }
     },
     "date": "August 6-7",
-    "venue": "MTV Flyp Cafe Cannaught Place",
+    "venue": "TBD",
     "btn_sponsor": "Sponsor Us",
     "btn_register": [
     "Register",
@@ -84,7 +84,7 @@
     },
     "countup": {
         "attendees": {
-            "number": 200,
+            "number": 150,
             "unit": "ATTENDEES"
         },
         "hours": {
