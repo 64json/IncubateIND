@@ -325,6 +325,16 @@
                         "$type": "image",
                         "$value": "sponsors/disrupt.png"
                     }
+                },
+                {
+                    "link": {
+                        "$type": "link",
+                        "$value": "http://empi.ac.in/empi/"
+                    },
+                    "image": {
+                        "$type": "image",
+                        "$value": "sponsors/EMPIBSchool.png"
+                    }
                 }
             ]
         },
